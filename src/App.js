@@ -1,4 +1,5 @@
 import Certificate from "./components/Certificate";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import JoinUs from "./components/JoinUs";
@@ -11,7 +12,7 @@ function App() {
       <HeroSection />
       <JoinUs />
       <Certificate />
-      <Header />
+      <Footer />
     </Wrapper>
   );
 }

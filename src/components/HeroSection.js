@@ -65,7 +65,7 @@ const Form = ({ title }) => {
         <Dropdown title={"*Select your profession"} />
         <Dropdown title={"*Select your goal"} />
         <Dropdown title={"*Select your city"} />
-        <button className="bg-buttonBg p-2.5 rounded-[4px] font-[700]">
+        <button className="bg-buttonBg font-proxima p-2.5 rounded-[4px] font-[700]">
           Submit
         </button>
       </div>
