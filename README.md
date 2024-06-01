@@ -55,6 +55,6 @@ This will start the development server and you can view the project in your brow
 For any inquiries or clarifications, please contact:
 
 - Name: Abhishek Chorotiya
-- Email: 2020kuec2033@iiitkota.ac.in (primary) / iam.abhishek8678@gmail.com
+- Email: 2020kuec2033@iiitkota.ac.in / code.abhi8678@gmail.com
 - Phone: +91 8003132368
 - LinkedIn - https://www.linkedin.com/in/abhishek-chorotiya-7a1a0a222/
