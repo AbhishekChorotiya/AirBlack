@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import JoinUs from "./components/JoinUs";
 import Wrapper from "./components/Wrapper";
+import "./App.css";
 
 function App() {
   return (

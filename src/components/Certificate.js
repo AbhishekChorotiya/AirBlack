@@ -8,7 +8,7 @@ const Certificate = () => {
       <img
         alt="certificate"
         src="/assets/certificate.png"
-        className="w-full object-contain"
+        className="w-full object-contain drop"
       />
     </div>
   );

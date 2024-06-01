@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         rocaone: ["RocaOne", "sans-serif"],
         proxima: ["ProximaNova", "sans-serif"],
+        pingfang: ["PingFangSC", "sans-serif"],
       },
       colors: {
         lightGray: "#D2D2D2",

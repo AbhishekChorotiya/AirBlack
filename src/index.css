@@ -16,6 +16,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'PingFangSC';
+  src: url('/public/fonts/PingFang.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

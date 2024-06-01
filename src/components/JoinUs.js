@@ -18,14 +18,14 @@ const JoinUs = () => {
     },
   ];
   return (
-    <div className="flex w-full h-fit flex-col items-center justify-center gap-8 py-[30px] px-6 overflow-hidden relative">
+    <div className="flex w-full z-0 h-fit flex-col items-center justify-center gap-8 py-[30px] px-6 overflow-hidden relative">
       <Heading title={"Why Should You Join Airblack?"} />
-      <div className="w-full flex gap-3 justify-between">
+      <div className="w-full flex gap-3 justify-between drop">
         {info.map(({ icon, title }) => (
           <IconAndTitle key={title} icon={icon} title={title} />
         ))}
       </div>
-      <button className="bg-buttonBg font-proxima text-white w-full p-2.5 rounded-[4px] font-[700]">
+      <button className="drop bg-buttonBg font-proxima text-white w-full p-2.5 rounded-[4px] font-[700]">
         Apply Now
       </button>
       <Background center={true} />
