@@ -15,7 +15,7 @@ const Footer = () => {
         Apply Now
       </button>
       <div className="flex gap-[17.35px] mt-1 drop">
-        <img src="/instagram.svg" width={35} alt="instagram" />
+        <img src={"/assets/instagram.svg"} width={35} alt="instagram" />
         <img src="/facebook.svg" width={35} alt="facebook" />
         <img src="/linkedin.svg" width={35} alt="linkedin" />
         <img src="/twitter.svg" width={35} alt="twitter" />
