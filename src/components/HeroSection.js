@@ -4,7 +4,7 @@ import {
   COUNTRIES_DIAL_CODES,
   GOAL_OPTIONS,
   PROFESSION_OPTIONS,
-} from "./utils/constants/constants";
+} from "../utils/constants/constants";
 
 const HeroSection = () => {
   return (
@@ -157,7 +157,7 @@ const Dropdown = ({
   }, []);
   return (
     <div className="border border-[#D9D9D9] px-3 py-2.5 rounded-[4px] relative">
-      <div className="flex items-center justify-between" ref={dropdownRef}>
+      <div className="flex items-center z-0 justify-between" ref={dropdownRef}>
         <span
           className={`${selected ? "text-black" : "text-[#BFBFBF]"} text-sm`}
         >
@@ -168,7 +168,7 @@ const Dropdown = ({
       {open && (
         <div
           ref={divRef}
-          className="w-full left-0 rounded-[10px] border border-[#D9D9D9] bg-white absolute top-[calc(100%+5px)] flex flex-col"
+          className="w-full left-0 z-[1000] rounded-[10px] border border-[#D9D9D9] bg-white absolute top-[calc(100%+5px)] flex flex-col"
         >
           {options.map((option) => (
             <div
